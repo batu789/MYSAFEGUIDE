@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="MY SAFE AND FIT GUIDE">
+
+        <menu>
+
+            <item
+            android:id="@+id/profill"
+            android:icon="@android:drawable/ic_delete"
+            android:title="@string/profil"
+                tools:ignore="DuplicateIds" />
+        </menu>
+    </item>
+    <item android:title="BİLMEN GEREKENLER ! ">
+            <menu>
+
+                <item
+                    android:id="@+id/rehberr"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="REHBER" />
+            <item
+                android:id="@+id/nedendövüşsporlarıı"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Neden Dövüş Sporları ? "
+                tools:ignore="DuplicateIds" />
+
+            <item
+                android:id="@+id/nedensporyapmalıyım"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Neden Spor Yapmalıyım ? "
+                tools:ignore="DuplicateIds" />
+
+
+        </menu>
+
+    </item>
+
+
+    <item android:title=" HAREKETE GEÇ!">
+
+        <menu>
+
+
+        <item
+            android:id="@+id/egzersizlerr"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Egzersizler"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/dövüşsporlarıı"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Dövüş Sporları"
+            tools:ignore="DuplicateIds" />
+
+    <item
+        android:id="@+id/hazırantrenmanprogramları"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Hazır Antrenman Programları"
+        tools:ignore="DuplicateIds" />
+
+
+
+</menu>
+
+    </item>
+
+    <item android:title="ARAÇLAR">
+
+<menu>
+        <item
+            android:id="@+id/kronometree"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Kronometre"
+            tools:ignore="DuplicateIds" />
+        <item
+            android:id="@+id/gerisayımm"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Geri Sayım"
+            tools:ignore="DuplicateIds" />
+   </menu>
+
+    </item>
+
+    <item android:title="İLETİŞİM">
+
+        <menu>
+            <item
+                android:id="@+id/instagramm"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="İnstagram"
+                tools:ignore="DuplicateIds" />
+            <item
+                android:id="@+id/twitterr"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Twitter"
+                tools:ignore="DuplicateIds" />
+        </menu>
+
+    </item>
+
+</menu>
+

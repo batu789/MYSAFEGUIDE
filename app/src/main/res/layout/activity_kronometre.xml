@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".kronometre">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="125dp"
+        android:textAlignment="center"
+        android:textColor="#E60501"
+        android:textSize="120sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="50dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/sbliontwo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="420dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/lionn2" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/egzersizler"
+        android:onClick="start"
+        android:shadowColor="#E60501"
+        android:text="BAŞLAT"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pause"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/egzersizler"
+        android:onClick="reset"
+        android:text="SIFIRLA"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/egzersizler"
+        android:onClick="pause"
+        android:shadowColor="#E60501"
+        android:text="DURDUR"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

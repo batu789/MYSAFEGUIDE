@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E60501"
+    android:orientation="vertical"
+    tools:context=".bolgeler">
+
+
+    <Button
+        android:id="@+id/sırt "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="sırt"
+        android:shadowColor="#E60501"
+        android:text="Sırt (BACK)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/göğüs "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="göğüs"
+        android:shadowColor="#E60501"
+        android:text="Göğüs (CHEST)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/omuz "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="omuz"
+        android:shadowColor="#E60501"
+        android:text="Omuz (Shoulder)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/kol "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="kol"
+        android:shadowColor="#E60501"
+        android:text="Kol (ARM)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/bacak"
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="bacak"
+        android:shadowColor="#E60501"
+        android:text="Bacak (LEG)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/ısınma "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="ısınma"
+        android:shadowColor="#E60501"
+        android:text="Isınma (WARM UP)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/soğuma "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="soğuma"
+        android:shadowColor="#E60501"
+        android:text="Soğuma (COOL DOWN)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/esneme "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="esneme"
+        android:shadowColor="#E60501"
+        android:text="Esneme (STRETCH)"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/form "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="form"
+        android:shadowColor="#E60501"
+        android:text="Form Hareketleri"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

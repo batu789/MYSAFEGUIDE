@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:hint="DAKİKA "
+        android:inputType="number"
+        android:maxLength="4"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="7dp"
+        android:background="#000000"
+        android:text="Hazır"
+        android:textColor="#E60501"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/edit_text_input" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="262dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="16dp"
+        android:text="10:00"
+        android:textColor="#E60501"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_text_input"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_input"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="450dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/sblion" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="420dp"
+        android:layout_height="450dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_countdown"
+        app:srcCompat="@drawable/lion5" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="#000000"
+        android:onClick="start"
+        android:shadowColor="#E60501"
+        android:text="BAŞLAT"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/pause"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="3dp"
+        android:background="#000000"
+        android:onClick="reset"
+        android:shadowColor="#E60501"
+        android:text="SIFIRLA"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/egzersizler"
+        android:onClick="pause"
+        android:shadowColor="#E60501"
+        android:text="DURDUR"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_start_pause"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

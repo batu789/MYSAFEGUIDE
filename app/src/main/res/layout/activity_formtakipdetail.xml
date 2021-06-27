@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".formtakipdetail">
+
+    <EditText
+        android:id="@+id/kanat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kanat/Göğüs Ölçünüz"
+        android:inputType="textPersonName"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/omuzolcusu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Omuz Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="80dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <EditText
+        android:id="@+id/boyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="Boyun Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <EditText
+        android:id="@+id/kololcusu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kol/Biceps Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <EditText
+        android:id="@+id/bacak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="Bacak Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="320dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <EditText
+        android:id="@+id/kalca"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kalça Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="260dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <EditText
+        android:id="@+id/bel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="Bel Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="200dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+    <EditText
+        android:id="@+id/bilek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Bilek Ölçünüz"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="440dp"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="save"
+        android:textSize="20dp"
+        android:text="KAYDET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/egzersizler"
+        android:shadowColor="#E60501"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textStyle="bold|italic"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

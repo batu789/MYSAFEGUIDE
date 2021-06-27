@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E60501"
+    android:orientation="vertical"
+    tools:context=".ui.rehber">
+
+    <Button
+        android:id="@+id/blog"
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="blog"
+        android:shadowColor="#E60501"
+        android:text="BLOG"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+    <Button
+    android:id="@+id/beslenme"
+    android:layout_width="412dp"
+    android:layout_height="250dp"
+    android:layout_weight="1"
+    android:background="@drawable/egzersizler"
+    android:onClick="beslenme"
+    android:shadowColor="#E60501"
+    android:text="Beslenme"
+    android:textColor="#E60501"
+    android:textColorHighlight="#E60501"
+    android:textColorHint="#E60501"
+    android:textColorLink="#E60501"
+    android:textSize="18sp"/>
+    <Button
+        android:id="@+id/supplementler "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="supplementler"
+        android:shadowColor="#E60501"
+        android:text="Supplementler /Takviyeler"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ekipmanlar "
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="ekipmanlar"
+        android:shadowColor="#E60501"
+        android:text="Ekipmanlar"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/atletler"
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="atletler"
+        android:shadowColor="#E60501"
+        android:text=" Profesyonel Atletler"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/sporcupsikolojisi"
+        android:layout_width="412dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:background="@drawable/egzersizler"
+        android:onClick="sporcupsikolojisi"
+        android:shadowColor="#E60501"
+        android:text="Sporcu Psikolojisi"
+        android:textColor="#E60501"
+        android:textColorHighlight="#E60501"
+        android:textColorHint="#E60501"
+        android:textColorLink="#E60501"
+        android:textSize="18sp"/>
+
+</LinearLayout>

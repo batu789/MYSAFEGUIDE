@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    android:background="#E60501"
+    tools:ignore="ExtraText">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/menu"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/formtakip"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/egzersizler"
+            android:onClick="formtakip"
+            android:shadowColor="#E60501"
+            android:text="FORM TAKİP"
+            android:textColor="#E60501"
+            android:textColorHighlight="#E60501"
+            android:textColorHint="#E60501"
+            android:textColorLink="#E60501"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/antrenmanprogramlarım"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/egzersizler"
+            android:onClick="antrenmanprogramları"
+            android:shadowColor="#E60501"
+            android:text="ANTRENMAN PROGRAMI OLUŞTUR"
+            android:textColor="#E60501"
+            android:textColorHighlight="#E60501"
+            android:textColorHint="#E60501"
+            android:textColorLink="#E60501"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/favoriler"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/egzersizler"
+            android:onClick="favoriler"
+            android:shadowColor="#E60501"
+            android:text="FAVORİLERİM"
+            android:textColor="#E60501"
+            android:textColorHighlight="#E60501"
+            android:textColorHint="#E60501"
+            android:textColorLink="#E60501"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/beforeafter"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/egzersizler"
+            android:onClick="beforeafter"
+            android:shadowColor="#E60501"
+            android:text="BEFORE/AFTER"
+            android:textColor="#E60501"
+            android:textColorHighlight="#E60501"
+            android:textColorHint="#E60501"
+            android:textColorLink="#E60501"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/kilotakip"
+            android:layout_width="412dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/egzersizler"
+            android:onClick="kilotakip"
+            android:shadowColor="#E60501"
+            android:text="KİLO TAKİP"
+            android:textColor="#E60501"
+            android:textColorHighlight="#E60501"
+            android:textColorHint="#E60501"
+            android:textColorLink="#E60501"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

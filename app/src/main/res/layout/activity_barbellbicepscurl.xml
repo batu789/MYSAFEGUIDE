@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barbellbicepscurl"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            app:srcCompat="@drawable/haricurl" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#E60501"
+                    android:text="        BARBELL BICEPS CURL"
+                    android:textColor="#E60501"
+                    android:textColorHighlight="#E60501"
+                    android:textColorHint="#E60501"
+                    android:textColorLink="#E60501"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="390dp"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#E60501"
+                    android:text="
+                Dik durun Ayaklarınızı ve kollarınızı omuz
+             hizasında açın.Avuç içleri karşı tarafa bakacak
+           şekilde demir bar tutulur
+           Dirsekler sabit kalarak ağırlık yukarı doğru kaldırılır
+           Barı ön omuz hizasına kadar kaldırın
+           Yukarı Kaldırırken nefes verin
+           Yavaşça aşşağı indirirken nefes alarak başlangıç
+           pozisyonuna dönün.Barbell Curl en temel biceps ve
+           en iyi kol kası geliştirme hareketlerinden biridir.
+           Biceps Ön kol Kası, 2 parça şeklindedir. İki yerden
+            başlar ve tek yerde sonlanır. Ön pazumuzun oluşmasını
+             sağlayan kas grubudur. Barbell Curl hareketinin hedef
+             noktası biceps kaslarıdır. Barbell Curl çalışarak
+             ön pazuların büyümesini ve güçlenmesini sağlayabilirsiniz.
+
+           Brachioradialis kası, ön kolun üst tarafında, biseps
+           ve brachiolis kasına bağlı, çekme görevini gerçekleştiren
+            küçük bir kas kütlesi  Barbell Curl çalışarak bu kas
+             kütlesinin gelişmesi sağlanır. Bu sayede daha büyük
+             kollar ve daha güçlü bilekler inşa edilmiş olur.
+           Barbell Curl hareketi sayesinde, kollarımızın iri
+            gözükmesini sağlayan Brachialis kasını çalıştırmış oluruz.
+             Oldukça Önemli olan bu küçük kas kütlesi geliştirildiği
+             takdirde, dışarıdan bakıldığında kolların daha iri ve
+              hacimli gözükmesini sağlamaktadır.
+           Barbell Curl en önemli üç kas grubunu çalıştırmaktadır.
+           Antrenmanlarınız da bu kas gruplarını çalıştırmak istiyorsanız
+            bu hareketi programınıza dahil etmeyi unutmayın.
+           Sadece görünüş önemli değil, aynı zamanda günlük hayatınızda
+            da işe yarayacaktır. Bir şeyi kaldırıp indirirken kol
+             kuvvetine ihtiyacınız var, kol kaslarınızı güçlendirmek
+              günlük hayatınızda işinizi kolaylaştırır.
+           Biceps Brachii
+
+           Barbell Curl
+           Barbell Curl egzersizinin en etkili kısmı biseps kaslarıdır.
+            Bu kasları geliştirmek ve güçlendirmek için Barbell curl
+             yapmak iyi bir fikirdir.
+
+           Biceps Brachii Kısa Baş:  Üst kol, biseps kasının içinde
+           vücuda doğru yer alan kısadır. Skapula, kürek kemiğinden
+           başlar. Humerus üst kol kemiğinin üst kısmından vücuda
+           doğru geçer ve buradan ön kol kemiğinin dış kısmında
+            bulunan Radius kemiğinin üst kısmına tutturulur.
+           Biceps Brachii Uzun Baş:  Üst kol, vücuda göre biseps
+           kasının dış kısmında bulunan en uzun koldur. Humerus,
+           üst kol kemiğinin üst ucundan başlar ve Ulna önkol kemiğine
+           bağlanır.
+           Brachialis
+
+           Barbell Curl
+          Barbell Curl egzersizi sayesinde kollarımızın büyük
+          görünmesini sağlayan Brachialis kasını çalıştırıyoruz.
+           Çok önemli olan bu küçük ve geniş kas kütlesi,
+           geliştirilirse dışarıdan bakıldığında kolların daha
+            büyük ve hacimli görünmesini sağlar. Brachialis kası
+            geliştikçe, pazı ve trisepsinizi ayırarak daha geniş
+             görünümlü bir kol oluşturur. Kollarınıza mutant
+              görünümü veren o küçük kas kütlesi.
+
+           Brachioradialis
+
+          Barbell Curl
+          Brachioradialis kası, ön kolun üst kolunda bulunan,
+          biseps ve brakiyolis kasına bağlı, çekme görevini
+          yerine getiren küçük bir kas kütlesidir. Brachioradialis
+           kasını olabildiğince etkili bir şekilde uyarmak ve daha
+            büyük bir önkol geliştirmek kesinlikle gereklidir."
+                    android:textColor="#E60501"
+                    android:textColorHighlight="#E60501"
+                    android:textColorHint="#E60501"
+                    android:textColorLink="#E60501"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

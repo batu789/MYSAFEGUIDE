@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762505746212",
+    "project_id": "mysafe-ced22",
+    "storage_bucket": "mysafe-ced22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762505746212:android:66bb1e40cad8247ccb05b1",
+        "android_client_info": {
+          "package_name": "com.batuhan.mysafegude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762505746212-ctvla0tdsjkaq37dnrl667fkfafjo46s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3bx_5BtipX4v0jCgwdFSxesIhr0z930E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762505746212-ctvla0tdsjkaq37dnrl667fkfafjo46s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
